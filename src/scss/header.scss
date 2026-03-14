@@ -1,0 +1,115 @@
+.header {
+  &__container {
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    background-color: var(--light-gray);
+    border-left: 1px solid var(--blue-dark);
+    border-right: 1px solid var(--blue-dark);
+  }
+  &__rating {
+    display: flex;
+    align-items: center;
+    .rating-box {
+      width: 100px;
+      .rating-text {
+        font-size: 12px;
+        line-height: 1;
+        margin-top: 6px;
+      }
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+
+    .contacts-time {
+      position: relative;
+      color: var(--blue-dark);
+      margin-left: 10px;
+      line-height: 20px;
+      font-size: 14px;
+      padding-left: 10px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 55%;
+        transform: translateY(-55%);
+        width: 2px;
+        height: 2px;
+        background: var(--blue-dark);
+        border-radius: 50%;
+      }
+    }
+
+    .contacts-phone {
+      margin-left: 24px;
+      display: flex;
+      align-items: center;
+
+      span {
+        color: var(--gray-dark);
+        margin-left: 2px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0;
+      }
+    }
+
+    a:first-child {
+      margin-right: 8px;
+    }
+  }
+
+  .blue-line {
+    display: block;
+    width: 0px;
+    height: 24px;
+    border: 1px solid var(--blue-dark);
+    margin-left: 46.4px;
+  }
+
+  &__cta {
+    .btn--primary {
+      background-color: var(--btn);
+      color: white;
+      border-radius: 8px;
+      font-weight: var(--fw-bold);
+      padding: 8px 12px;
+    }
+  }
+
+  &__bottom {
+    box-shadow: -2px 2px 8px 0 rgba(11, 11, 11, 0.08);
+    border-radius: 0 0 16px 16px;
+    padding: 24px 74px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__item {
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    &__link {
+      display: flex;
+      align-items: center;
+    }
+    &__text {
+      margin-right: 8px;
+      color: var(--gray-dark);
+    }
+  }
+}

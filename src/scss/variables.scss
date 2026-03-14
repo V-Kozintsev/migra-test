@@ -1,0 +1,22 @@
+:root {
+  // Цвета
+  --btn: #cc0a0a;
+  --blue-dark: #2154b2;
+  --gray-dark: #313131;
+  --light-gray: #eaf1f6;
+
+  // Шрифты
+  --font-primary: "Inter", Arial, sans-serif;
+  --font-montserrat: "Montserrat", var(--font-primary);
+  --font-geologica: "Geologica", var(--font-primary);
+  --font-arial: "Arial", sans-serif;
+
+  // Веса
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  // Размеры экрана
+  --lg: 1280px;
+}
