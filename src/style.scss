@@ -1,0 +1,37 @@
+@use "@a1rth/css-normalize"; // normalize
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@700&family=Geologica:wght@600&family=Arial:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  // Цвета
+  --color-btn: #cc0a0a;
+  --color-blue-dark: #2154b2;
+  --color-gray-dark: #313131;
+
+  // Шрифты
+  --font-primary: "Inter", Arial, sans-serif;
+  --font-montserrat: "Montserrat", var(--font-primary);
+  --font-geologica: "Geologica", var(--font-primary);
+  --font-arial: "Arial", sans-serif;
+
+  // Веса
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  // Размеры экрана
+  --lg: 1280px;
+}
+
+html {
+  font-size: 16px;
+  font-family: var(--font-primary);
+  font-weight: var(--fw-normal);
+}
+
+.header {
+  font-family: Arial, var(--font-primary);
+  letter-spacing: 0%;
+  font-variant-numeric: lining-nums tabular-nums;
+}

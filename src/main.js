@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.scss";
 
 import header from "./components/header.html?raw";
 
