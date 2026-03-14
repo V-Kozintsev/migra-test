@@ -1,6 +1,7 @@
 .header {
   &__container {
   }
+
   &__top {
     display: flex;
     justify-content: space-between;
@@ -10,11 +11,14 @@
     border-left: 1px solid var(--blue-dark);
     border-right: 1px solid var(--blue-dark);
   }
+
   &__rating {
     display: flex;
     align-items: center;
+
     .rating-box {
       width: 100px;
+
       .rating-text {
         font-size: 12px;
         line-height: 1;
@@ -24,8 +28,6 @@
   }
 
   &__contacts {
-    display: flex;
-    align-items: center;
     display: flex;
     align-items: center;
 
@@ -92,24 +94,27 @@
     border-radius: 0 0 16px 16px;
     padding: 24px 74px;
   }
+}
 
-  .menu {
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__item {
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &__link {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    &__item {
-      img {
-        width: 16px;
-        height: 16px;
-      }
-    }
-    &__link {
-      display: flex;
-      align-items: center;
-    }
-    &__text {
-      margin-right: 8px;
-      color: var(--gray-dark);
-    }
+  }
+
+  &__text {
+    margin-right: 8px;
+    color: var(--gray-dark);
   }
 }
