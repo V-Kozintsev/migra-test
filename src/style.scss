@@ -22,10 +22,11 @@ input[type="button"] {
   appearance: none;
 }
 .container {
-  width: var(--lg);
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 55px;
 }
+
 .header {
   font-family: Arial, var(--font-primary);
   letter-spacing: 0%;

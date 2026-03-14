@@ -1,5 +1,8 @@
 .header {
-  &__container {
+  .container {
+    @media (max-width: 1279px) {
+      padding: 0 25px;
+    }
   }
 
   &__top {
@@ -10,6 +13,10 @@
     background-color: var(--light-gray);
     border-left: 1px solid var(--blue-dark);
     border-right: 1px solid var(--blue-dark);
+
+    @media (max-width: 1279px) {
+      padding: 12px 15px;
+    }
   }
 
   &__rating {
